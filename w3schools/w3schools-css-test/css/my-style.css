@@ -1,0 +1,12 @@
+/*
+Archivo externo de CSS para uso en el archivo: 03CSS-HowTo-01.html
+
+*/
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}

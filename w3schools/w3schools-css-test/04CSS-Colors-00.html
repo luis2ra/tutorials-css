@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Colors</title>
+    </head>
+    <body>
+        <h1>CSS Colors</h1>
+        
+        <p>Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.</p>
+        
+        
+        <h2>Color Names</h2>
+        <p>In HTML, a color can be specified by using a color name:</p>
+        <a href="04CSS-Colors-01.html">Ver DemoColor01</a>
+        <p>HTML supports 140 standard color names.</p>
+        
+        
+        <hr>
+        <h2>Background Color</h2>
+        <p>You can set the background color for HTML elements:</p>
+        <a href="04CSS-Colors-02.html">Ver DemoColor02</a>
+        
+        
+        <hr>
+        <h2>Text Color</h2>
+        <p>You can set the color of text:</p>
+        <a href="04CSS-Colors-03.html">Ver DemoColor03</a>
+        
+        
+        <hr>
+        <h2>Border Color</h2>
+        <p>You can set the color of borders:</p>
+        <a href="04CSS-Colors-04.html">Ver DemoColor04</a>
+        
+        
+        <hr>
+        <h2>Color Values</h2>
+        <p>In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values:</p>
+        <a href="04CSS-Colors-05.html">Ver DemoColor05</a>
+        
+        
+        <hr>
+        <h2>RGB Value</h2>
+        <p>In HTML, a color can be specified as an RGB value, using this formula:</p>
+        <p style="font-size: 30px;">rgb(<span style="font-style:italic;">red, green, blue</span>)</p>
+        <p>Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.</p>
+        <p>For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255) and the others are set to 0.</p>
+        <p>To display the color black, all color parameters must be set to 0, like this: rgb(0, 0, 0).</p>
+        <p>To display the color white, all color parameters must be set to 255, like this: rgb(255, 255, 255).</p>
+        <a href="04CSS-Colors-06.html">Ver DemoColor06</a>
+        <p>Shades of gray are often defined using equal values for all the 3 light sources:</p>
+        <a href="04CSS-Colors-07.html">Ver DemoColor07</a>
+        
+        
+        <hr>
+        <h2>HEX Value</h2>
+        <p>In HTML, a color can be specified using a hexadecimal value in the form:</p>
+        <p style="font-size: 30px;font-style:italic;">#rrggbb</p>
+        <p>Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).</p>
+        <p>For example, #ff0000 is displayed as red, because red is set to its highest value (ff) and the others are set to the lowest value (00).</p>
+        <a href="04CSS-Colors-08.html">Ver DemoColor08</a>
+        <p>Shades of gray are often defined using equal values for all the 3 light sources:</p>
+        <a href="04CSS-Colors-09.html">Ver DemoColor09</a>
+        
+        
+        <hr>
+        <h2>HSL Value</h2>
+        <p>In HTML, a color can be specified using hue, saturation, and lightness (HSL) in the form:</p>
+        <p style="font-size: 30px;">hsl(<span style="font-style:italic;">hue, saturation, lightness</span>)</p>
+        <p>Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.</p>
+        <p>Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.</p>
+        <p>Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white</p>
+        <a href="04CSS-Colors-10.html">Ver DemoColor10</a>
+        
+        <h3>Saturation</h3>
+        <p>Saturation can be described as the intensity of a color.</p>
+        <p>100% is pure color, no shades of gray</p>
+        <p>50% is 50% gray, but you can still see the color.</p>
+        <p>0% is completely gray, you can no longer see the color.</p>
+        <a href="04CSS-Colors-11.html">Ver DemoColor11</a>
+        
+        <h3>Lightness</h3>
+        <p>The lightness of a color can be described as how much light you want to give the color, where 0% means no light (black), 50% means 50% light (neither dark nor light) 100% means full lightness (white).</p>
+        <a href="04CSS-Colors-12.html">Ver DemoColor12</a>
+        
+        <p>Shades of gray are often defined by setting the hue and saturation to 0, and adjust the lightness from 0% to 100% to get darker/lighter shades:</p>
+        <a href="04CSS-Colors-13.html">Ver DemoColor13</a>
+        
+        
+        <hr>
+        <h2>RGBA Value</h2>
+        <p>RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity for a color.</p>
+        <p>An RGBA color value is specified with:</p>
+        <p style="font-size: 30px;">rgba(<span style="font-style:italic;">red, green, blue, alpha</span>)</p>
+        The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):
+        <a href="04CSS-Colors-14.html">Ver DemoColor14</a>
+        
+        
+        <hr>
+        <h2>HSLA Value</h2>
+        <p>HSLA color values are an extension of HSL color values with an alpha channel - which specifies the opacity for a color.</p>
+        <p>An HSLA color value is specified with:</p>
+        <p style="font-size: 30px;">hsla(<span style="font-style:italic;">hue, saturation, lightness, alpha</span>)</p>
+        <p>The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):</p>
+        <a href="04CSS-Colors-15.html">Ver DemoColor15</a>
+        
+        <hr>
+        <div style="background-color: lightcoral; padding: 5px;">
+            <h4>Tips para recordar:</h4>
+            <p>Símbolo de Euro en HTML: &#8364;</p>
+            <p>Símbolo de Euro en HTML Entity: &euro;</p>    
+        </div>
+        
+    </body>
+</html>

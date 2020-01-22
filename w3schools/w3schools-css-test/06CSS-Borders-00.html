@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Borders</title>
+    </head>
+    <body>
+        <h1>CSS Borders</h1>
+        
+        <h2>CSS Border Properties</h2>
+        
+        <p>The CSS border properties allow you to specify the style, width, and color of an element's border.</p>
+        
+        
+        <hr>
+        <h2>Border Style</h2>
+        <p>The border‐style property specifies what kind of border to display.</p>
+        <p>The following values are allowed:</p>
+        <ul>
+            <li>dotted - Defines a dotted border</li>
+            <li>dashed - Defines a dashed border</li>
+            <li>solid - Defines a solid border</li>
+            <li>double - Defines a double border</li>
+            <li>groove - Defines a 3D grooved border. The effect depends on the border-color value</li>
+            <li>ridge - Defines a 3D ridged border. The effect depends on the border-color value</li>
+            <li>inset - Defines a 3D inset border. The effect depends on the border-color value</li>
+            <li>outset - Defines a 3D outset border. The effect depends on the border-color value</li>
+            <li>none - Defines no border</li>
+            <li>hidden - Defines a hidden border</li>
+        </ul>
+        <p>The border‐style property can have from one to four values (for the top border, right border, bottom border, and the left border).</p>
+        <a href="06CSS-Borders-01.html">Ver Demo01</a>
+        
+        <p style="background-color: lightgoldenrodyellow; padding: 10px;"><b>Note:</b> None of the OTHER CSS border properties described below will have ANY effect unless the border‐style property is set!</p>
+        
+        
+        <hr>
+        <h2>Border Width</h2>
+        <p>The border‐width property specifies the width of the four borders.</p>
+        <p>The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick.</p>
+        <p>The border‐width property can have from one to four values (for the top border, right border, bottom border, and the left border).</p>
+        <a href="06CSS-Borders-02.html">Ver Demo02</a>
+        
+        
+        <hr>
+        <h2>Border Color</h2>
+        <p>The border‐color property is used to set the color of the four borders.</p>
+        <p>The color can be set by:</p>
+        <ul>
+            <li>name - specify a color name, like "red"</li>
+            <li>Hex - specify a hex value, like "#ff0000"</li>
+            <li>RGB - specify a RGB value, like "rgb(255,0,0)"</li>
+            <li>transparent</li>
+        </ul>
+        <p>The border‐color property can have from one to four values (for the top border, right border, bottom border, and the left border).</p>
+        <p>If border‐color is not set, it inherits the color of the element.</p>
+        <a href="06CSS-Borders-03.html">Ver Demo03</a>
+        
+        
+        <hr>
+        <h2>Border - Individual Sides</h2>
+        <p>From the examples above you have seen that it is possible to specify a different border for each side.</p>
+        <p>In CSS, there are also properties for specifying each of the borders (top, right, bottom, and left):</p>
+        <a href="06CSS-Borders-04.html">Ver Demo04</a>
+        
+        <p>The example above gives the same result as this:</p>
+        <a href="06CSS-Borders-05.html">Ver Demo05</a>
+        
+        <p>So, here is how it works:</p>
+        
+        <p>If the border‐style property has four values:</p>
+        <ul>
+            <li>border-style: dotted solid double dashed;</li>
+            <ul>
+                <li>top border is dotted</li>
+                <li>right border is solid</li>
+                <li>bottom border is double</li>
+                <li>left border is dashed</li>
+            </ul>
+        </ul>
+        
+        <p>If the border‐style property has three values:</p>
+        <ul>
+            <li>border-style: dotted solid double;</li>
+            <ul>
+                <li>top border is dotted</li>
+                <li>right and left borders are solid</li>
+                <li>bottom border is double</li>
+            </ul>
+        </ul>
+        
+        <p>If the border‐style property has two values:</p>
+        <ul>
+            <li>border-style: dotted solid;</li>
+            <ul>
+                <li>top and bottom borders are dotted</li>
+                <li>right and left borders are solid</li>
+            </ul>
+        </ul>
+        
+        <p>If the border‐style property has one value:</p>
+        <ul>
+            <li>border-style: dotted;</li>
+            <ul>
+                <li>all four borders are dotted</li>
+            </ul>
+        </ul>
+        <p>The border‐style property is used in the example above. However, it also works with border‐width and border‐color.</p>
+        
+        
+        <hr>
+        <h2>Border - Shorthand Property</h2>
+        <p>As you can see from the examples above, there are many properties to consider when dealing with borders.</p>
+        <p>To shorten the code, it is also possible to specify all the individual border properties in one property.</p>
+        <p>The border property is a shorthand property for the following individual border properties:</p>
+        <ul>
+            <li>border‐width</li>
+            <li>border‐style (required)</li>
+            <li>border‐color</li>
+        </ul>
+        <a href="06CSS-Borders-06.html">Ver Demo06</a>
+        
+        <p>You can also specify all the individual border properties for just one side:</p>
+        <a href="06CSS-Borders-07.html">Ver Demo07</a>
+        
+        <p>Other example:</p>
+        <a href="06CSS-Borders-08.html">Ver Demo08</a>
+        
+        
+        <hr>
+        <h2>Rounded Borders</h2>
+        <p>The border‐radius property is used to add rounded borders to an element:</p>
+        <a href="06CSS-Borders-09.html">Ver Demo09</a>
+        <p><b>Note:</b> The border‐radius property is not supported in IE8 and earlier versions.</p>
+        
+        
+        <hr>
+        <div style="background-color: lightcoral; padding: 5px;">
+            <h4>Tips para recordar:</h4>
+            <p>Símbolo de Euro en HTML: &#8364;</p>
+            <p>Símbolo de Euro en HTML Entity: &euro;</p>    
+        </div>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Backgrounds</title>
+    </head>
+    <body>
+        <h1>CSS Backgrounds</h1>
+        
+        <h2>Background Color</h2>
+        <p>The background-color property specifies the background color of an element.</p>
+        <p>The background color of a page is set like this:</p>
+        <a href="05CSS-Backgrounds-01.html">ver Demo01</a>
+        
+        <p>With CSS, a color is most often specified by:</p>
+        <ul>
+            <li>a valid color name - like "red"</li>
+            <li>a HEX value - like "#ff0000"</li>
+            <li>an RGB value - like "rgb(255,0,0)"</li>
+        </ul>
+        <p>Look at <a href="https://www.w3schools.com/cssref/css_colors_legal.asp">CSS Color Values</a> for a complete list of possible color values.</p>
+        <p>In the example below, the &lt;h1&gt;, &lt;p&gt;, and &lt;div&gt; elements have different background colors:</p>
+        <a href="05CSS-Backgrounds-02.html">ver Demo02</a>
+        
+        
+        <hr>
+        <h2>Background Image</h2>
+        <p>The background-image property specifies an image to use as the background of an element.</p>
+        <p>By default, the image is repeated so it covers the entire element.</p>
+        <p>The background image for a page can be set like this:</p>
+        <a href="05CSS-Backgrounds-03.html">ver Demo03</a>
+        
+        <p>Below is an example of a bad combination of text and background image. The text is hardly readable:</p>
+        <a href="05CSS-Backgrounds-04.html">ver Demo04</a>
+        
+        <p style="background-color: lightgoldenrodyellow; padding: 10px;"><b>Note: </b>When using a background image, use an image that does not disturb the text.</p>
+        
+        
+        <hr>
+        <h2>Background Image - Repeat Horizontally or Vertically</h2>
+        <p>By default, the background-image property repeats an image both horizontally and vertically.</p>
+        <p>Some images should be repeated only horizontally or vertically, or they will look strange, like this:</p>
+        <a href="05CSS-Backgrounds-05.html">ver Demo05</a>
+        
+        <p>If the image above is repeated only horizontally (background-repeat: repeat-x;), the background will look better:</p>
+        <a href="05CSS-Backgrounds-06.html">ver Demo06</a>
+        
+        <p style="background-color: lightgoldenrodyellow; padding: 10px;"><b>Note: </b>To repeat an image vertically, set background-repeat: repeat-y;</p>
+        
+        
+        <hr>
+        <h2>Background Image - Set position and no-repeat</h2>
+        <p>Showing the background image only once is also specified by the background-repeat property:</p>
+        <a href="05CSS-Backgrounds-07.html">ver Demo07</a>
+        
+        <p>In the example above, the background image is shown in the same place as the text. We want to change the position of the image, so that it does not disturb the text too much.</p>
+        <p>The position of the image is specified by the background-position property:</p>
+        <a href="05CSS-Backgrounds-08.html">ver Demo08</a>
+        
+        
+        <hr>
+        <h2>Background Image - Fixed position</h2>
+        <p>To specify that the background image should be fixed (will not scroll with the rest of the page), use the background-attachment property:</p>
+        <a href="05CSS-Backgrounds-09.html">ver Demo09</a>
+        
+        
+        <hr>
+        <h2>Background - Shorthand property</h2>
+        <p>To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.</p>
+        <p>The shorthand property for background is background:</p>
+        <a href="05CSS-Backgrounds-10.html">ver Demo10</a>
+        
+        <p> When using the shorthand property the order of the property values is:</p>
+        <ul>
+            <li>background-color</li>
+            <li>background-image</li>
+            <li>background-repeat</li>
+            <li>background-attachment</li>
+            <li>background-position</li>
+        </ul>
+        <p>It does not matter if one of the property values is missing, as long as the other ones are in this order.</p>
+        
+        
+        <hr>
+        <div style="background-color: lightcoral; padding: 5px;">
+            <h4>Tips para recordar:</h4>
+            <p>Símbolo de Euro en HTML: &#8364;</p>
+            <p>Símbolo de Euro en HTML Entity: &euro;</p>    
+        </div>
+    </body>
+</html>
